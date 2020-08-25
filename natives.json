@@ -104525,12 +104525,12 @@
 			"comment": "",
 			"params": [
 				{
-					"type": "Any",
-					"name": "p0"
+					"type": "Vehicle",
+					"name": "vehicle"
 				},
 				{
-					"type": "Any",
-					"name": "p1"
+					"type": "BOOL",
+					"name": "toggle"
 				}
 			],
 			"return_type": "void",
@@ -104554,16 +104554,16 @@
 			"build": "1290"
 		},
 		"0x3A9128352EAC9E85": {
-			"name": "_0x3A9128352EAC9E85",
+			"name": "_ARE_OUTRIGGER_LEGS_FULLY_DEPLOYED",
 			"jhash": "",
-			"comment": "",
+			"comment": "Used to check if the outrigger legs of the chernobog are fully deployed.",
 			"params": [
 				{
-					"type": "Any",
-					"name": "p0"
+					"type": "Vehicle",
+					"name": "vehicle"
 				}
 			],
-			"return_type": "Any",
+			"return_type": "BOOL",
 			"build": "1290"
 		},
 		"0x8DC9675797123522": {
@@ -104572,25 +104572,25 @@
 			"comment": "",
 			"params": [
 				{
-					"type": "Any",
-					"name": "p0"
+					"type": "Ped",
+					"name": "ped"
 				}
 			],
-			"return_type": "Any",
+			"return_type": "Vector3",
 			"build": "1290"
 		},
 		"0xB251E0B33E58B424": {
-			"name": "_0xB251E0B33E58B424",
+			"name": "_SET_DEPLOY_HELI_STUB_WINGS",
 			"jhash": "",
-			"comment": "",
+			"comment": "Used for the hidden machine guns for the Akula.\n p2 is unused",
 			"params": [
 				{
-					"type": "Any",
-					"name": "p0"
+					"type": "Vehicle",
+					"name": "vehicle"
 				},
 				{
-					"type": "Any",
-					"name": "p1"
+					"type": "BOOL",
+					"name": "toggle"
 				},
 				{
 					"type": "Any",
@@ -104601,16 +104601,16 @@
 			"build": "1290"
 		},
 		"0xAEF12960FA943792": {
-			"name": "_0xAEF12960FA943792",
+			"name": "_ARE_HELI_STUB_WINGS_DEPLOYED",
 			"jhash": "",
-			"comment": "",
+			"comment": "Used for the hidden machine guns for the Akula.",
 			"params": [
 				{
-					"type": "Any",
-					"name": "p0"
+					"type": "Vehicle",
+					"name": "vehicle"
 				}
 			],
-			"return_type": "Any",
+			"return_type": "BOOL",
 			"build": "1290"
 		},
 		"0xAA653AE61924B0A0": {
@@ -104619,12 +104619,12 @@
 			"comment": "",
 			"params": [
 				{
-					"type": "Any",
-					"name": "p0"
+					"type": "Vehicle",
+					"name": "vehicle"
 				},
 				{
-					"type": "Any",
-					"name": "p1"
+					"type": "BOOL",
+					"name": "toggle"
 				}
 			],
 			"return_type": "void",
@@ -104633,19 +104633,19 @@
 		"0xC60060EB0D8AC7B1": {
 			"name": "_0xC60060EB0D8AC7B1",
 			"jhash": "",
-			"comment": "",
+			"comment": "Only used on the avenger in the scripts.",
 			"params": [
 				{
-					"type": "Any",
-					"name": "p0"
+					"type": "Vehicle",
+					"name": "vehicle"
 				},
 				{
-					"type": "Any",
+					"type": "int",
 					"name": "p1"
 				},
 				{
-					"type": "Any",
-					"name": "p2"
+					"type": "BOOL",
+					"name": "toggle"
 				}
 			],
 			"return_type": "void",
